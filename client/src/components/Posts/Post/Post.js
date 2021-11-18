@@ -1,11 +1,11 @@
 import React from "react";
 
-import useStyles from './styles';
+import useStyles from '../Post/style';
 
 const Post = () => {
     const classes = useStyles();
     return (
-        <h1>POST</h1>
+        <h1 className={classes}>POST</h1>
     );
 }
 
